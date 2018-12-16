@@ -15,14 +15,19 @@ Options:
 
 ## How to use
 ```
-./node index.js -u `user name` -p `password` -d `database name` -o `port [optional]` -h `hostname [optional]`
+./node index.js \
+-u `user name` \
+-p `password` \
+-d `database name` \
+-o `port [optional]` \
+-h `hostname [optional]`
 ```
 `Optional` parameters can be omitted. They should be used when `port` or `host` is other than default.
 
 You can easily save it to a file. Just append at the end of run command `>> 'file_name'`
 
 ## Output
-Will depend on your DB schema but here an example:
+Will depend on your DB schema but here is an example:
 ```
 type Users {
   id: Int!
